@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "picpay",
-    "slug": "picpay",
+    "name": "picpay-clone",
+    "slug": "picpay-clone",
     "platforms": [
       "ios",
       "android",
@@ -23,6 +23,8 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "description": "A @PicPay interface clone app ",
+    "githubUrl": "https://github.com/joaaomanooel/picpay-clone"
   }
 }

@@ -9,7 +9,7 @@ import { Container, Header, BalanceContainer, BalanceTitle, Balance, ScrollView 
 export default () => {
   return (
     <Container>
-      <ScrollView>
+      <ScrollView showsVerticalScrollIndicator={false}>
         <Header>
           <MaterialCommunityIcons name="qrcode-scan" size={30} color="#10C86E" />
           <BalanceContainer>

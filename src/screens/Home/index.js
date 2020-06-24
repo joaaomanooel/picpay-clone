@@ -2,6 +2,7 @@ import React from 'react';
 import { MaterialCommunityIcons, AntDesign } from '@expo/vector-icons';
 
 import Suggestions from '../../components/Suggestions';
+import Activities from '../../components/Activities';
 
 import { Container, Header, BalanceContainer, BalanceTitle, Balance, ScrollView } from './styles';
 
@@ -18,6 +19,7 @@ export default () => {
           <AntDesign name="gift" size={30} color="#10C86E" />
         </Header>
         <Suggestions />
+        <Activities />
       </ScrollView>
     </Container>
   );
